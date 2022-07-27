@@ -5,6 +5,7 @@ import ItemListContainer from './components/ItemListContainer'
 
 //Stlye
 import './css/bootstrap.min.css'
+import './css/style.css'
 
 
 function App() {
