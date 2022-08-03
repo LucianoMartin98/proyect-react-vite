@@ -3,8 +3,8 @@ import React from 'react'
 const CartWidget = () => {
     return (
         <>
-            <li class="nav-item">
-                <a class="nav-link"><i class="bi bi-cart"></i></a>
+            <li className="nav-item">
+                <a className="nav-link"><i className="bi bi-cart"></i></a>
             </li>
         </>
     )

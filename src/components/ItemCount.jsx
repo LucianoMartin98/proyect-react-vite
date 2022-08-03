@@ -16,7 +16,7 @@ const ItemCount = () => {
     return (
         <>
             <div className='container'>
-                <div className='card  mt-3 gap-2 p-2'>
+                <div className='cardCount  mt-3 gap-2 p-2'>
                     <div className='d-flex justify-content-between border border-dark bg-light p-2'>
                         <button className='btn btn-primary' onClick={restarContador}>-</button>
                         {clickCount}
