@@ -1,4 +1,8 @@
 .cardCount{
-    width: 12rem;
+    width: 10rem;
     background-color: rgb(238, 238, 238);
+}
+
+.cardDetalle{
+    width: 35rem;
 }
