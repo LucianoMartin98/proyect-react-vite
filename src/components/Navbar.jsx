@@ -17,13 +17,10 @@ const Navbar = () => {
                                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/category/nike">Nike</Link>
+                                <Link className="nav-link" to="/categorias/nike">Nike</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/category/adidas">Adidas</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/item">Item Detallado</Link>
+                                <Link className="nav-link" to="/categorias/adidas">Adidas</Link>
                             </li>
                             <CartWidget/>
                         </ul>
