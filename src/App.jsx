@@ -5,6 +5,7 @@ import ItemDetailContainer from './components/ItemDetail/ItemDetailContainer'
 import CartWidget from './components/CartWidget'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import TestEventos from './components/TestEventos'
+import CartProvider from './context/CartContext'
 
 //Stlye
 import './css/bootstrap.min.css'
@@ -19,9 +20,8 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        
+        <CartProvider>
         <Navbar />
-        
         <Routes>
           <Route path='/' element={<ItemListContainer />} />
           <Route path='/categorias/:idCategoria' element={<ItemListContainer />} />
@@ -30,7 +30,7 @@ function App() {
           <Route path='/testeventos' element={<TestEventos/>} />
           <Route path='*' element={<p>404 NOT FOUND</p>} />
         </Routes>
-
+</CartProvider>
       </BrowserRouter>
     </div>
   )

@@ -1,7 +1,9 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import { Link } from 'react-router-dom'
 
+
 const Item = ({ producto }) => {
+    
     return (
             <Link to={`/detalle/${producto.id}`}>
                 <div className="col-4 mt-4 mb-2">
